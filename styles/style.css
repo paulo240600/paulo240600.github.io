@@ -7,6 +7,7 @@ nav {
     background-color: rgb(144, 91, 194);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: large;
+    padding-bottom: 5px;
 }
 nav a {
   color: rgba(255, 255, 255, 0.918) 
@@ -41,6 +42,8 @@ footer {
     font-weight: bold;
     font-size: small;
     background-color: rgba(96, 55, 134, 0.986);
+    padding: 1px 1px 1px 1px;
+    margin-top: 20px;
 }
 body {
     background-color: rgb(255, 243, 225);
