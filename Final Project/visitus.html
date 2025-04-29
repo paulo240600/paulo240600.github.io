@@ -11,76 +11,61 @@
 <body>
     <div class="container_12 clearfix">
         <header class="grid_12">
-          <h1>Visit Us 🌍</h1>
+          <h1 id="maintitle">Visit Us 🌍</h1>
           <nav>
             <a href="homepage.html" target="_blank">Home</a>
           </nav>
         </header>
 
         <main>
-            <div id="toppart">
-                
-            <section>
-                <article id="img" class="grid_6">
-                    
-                </article>
-
-                <article id="history" class="grid_6">
+            <section id="toppart">  
+                <article id="parking" class="grid_6">
                     <h1>Parking and Directions 📍</h1>
-                    <p>In order to venture to Le Parque de las Leyendas, often referred as 'Park of Legends', from the United States, you will need to travel to Lima, and set down the address: </p>
-                    <ul> Av. De los Poetas s/n, Miraflores 15074, Lima, Peru </ul>
-                    
-                    <p>The parking space in the park is quite numerous, although not specified, per the popularity of the attractions. There are both free and paid parking slots, with an addition of <abbr title="Wheelchair Accessibility">disabled</abbr> slots. Tour guides and school slots are unavailable, regardless of the country's offers of attraction guides across entertainment values from companies. </p>
-    
-                
+                    <p id="parktext">In order to venture to El Parque de las Leyendas, often referred as 'Park of Legends', from the United States, you will need to travel to Lima, and set down the address: </p>
+                    <ul id="parktext"> Av. De los Poetas s/n, Miraflores 15074, Lima, Peru </ul>
+                    <p id="parktext">The parking space in the park is quite numerous, although not specified, per the popularity of the attractions. There are both free and paid parking slots, with an addition of <abbr title="Wheelchair Accessibility">disabled</abbr> slots. Tour guides and school slots are unavailable, regardless of the country's offers of attraction guides across entertainment values from companies. </p>
                 </article>
+
                 <article id="img" class="grid_6">
-
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.577999598003!2d-77.08968212493852!3d-12.07252998816629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c96e50e75963%3A0x8a678d8945d63712!2sPark%20of%20the%20Legends%20Zoo!5e0!3m2!1sen!2sus!4v1745424486878!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-
                 </article>
-                
             </section>
-            </div>
             
-            <section>
-                <h2>Let us know about your visit! &#128195</h2>
-                <br/>
+            <section id="encuesta" class="grid_12">
                 <form action="#" method="GET">
-                    <!-- Encase Controls -->
+                    <h2>Let us know about your visit! &#128195</h2>
+                    <br/>
+                
                     <fieldset>
                         <legend>Contact Details</legend>
-                        <!-- Text inputs -->
-                        <label>Name:<br />
+                        <label>Name:<br>
                             <input type="name" name="name" />
-                        </label><br />
-                        <label>Email:<br />
+                        </label><br>
+                        <label>Email:<br>
                             <input type="email" name="text" />
-                        </label><br />
-                        <br>
-                        <!-- Submit Button -->
+                        </label><br>
                         <input type="submit" value="Submit" />
-                        
                     </fieldset>
 
-                    <!-- Radio Buttons for Rating -->
-        <p>Rate your overall experience on our park:
-            <br />
-            <input type="radio" name="number" value="one" /> 1
-            <input type="radio" name="number" value="two" /> 2
-            <input type="radio" name="number" value="three" /> 3
-            <input type="radio" name="number" value="four" /> 4
-            <input type="radio" name="number" value="five" /> 5
-
-            <p>Write a comment:
-                <br />
-                <textarea name="comment" cols="60" rows="4"></textarea>
-            </p>
-            <input type="submit" value="Upload" />
+                    <p>Rate your overall experience on our park:
+                    <br>
+                    <input type="radio" name="number" value="one" /> 1
+                    <input type="radio" name="number" value="two" /> 2
+                    <input type="radio" name="number" value="three" /> 3
+                    <input type="radio" name="number" value="four" /> 4
+                    <input type="radio" name="number" value="five" /> 5
+                    <p>Write a comment:
+                    <br>
+                    <textarea name="comment" cols="60" rows="4"></textarea>
+                    </p>
+                    <input type="submit" value="Upload" />
+                </form>
             </section>
         </main>
-        </div>
-            
+
+        <footer class="grid_12">
+            <p>&copy; 2025 Parque de las Leyendas, all rights reserved</p>
+        </footer>
+    </div>        
 </body>
 </html>
