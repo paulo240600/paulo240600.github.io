@@ -103,6 +103,14 @@ footer {
     margin: 20px 0;
 }
 
+#encuesta input {
+    margin-bottom: 10px;
+}
+
+#how {
+    font-size: 15px;
+}
+
 @media screen and (max-width: 768px) {
     .grid_6, .grid_12 {
       width: 100% !important;
@@ -181,5 +189,9 @@ footer {
 
     footer {
         font-size: 1.4rem;
+    }
+
+    #how select {
+        font-size: 15px;
     }
   }

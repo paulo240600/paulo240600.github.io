@@ -51,14 +51,25 @@
 
                     <p>Rate your overall experience on our park:
                     <br>
-                    <input type="radio" name="number" value="one" /> 1
-                    <input type="radio" name="number" value="two" /> 2
-                    <input type="radio" name="number" value="three" /> 3
-                    <input type="radio" name="number" value="four" /> 4
-                    <input type="radio" name="number" value="five" /> 5
+                    <input id="how" type="radio" name="number" value="one" style="font-size: 2rem; margin-top: 10px;"/> 1
+                    <input id="how" type="radio" name="number" value="two" /> 2
+                    <input id="how" type="radio" name="number" value="three" /> 3
+                    <input id="how" type="radio" name="number" value="four" /> 4
+                    <input id="how" type="radio" name="number" value="five" /> 5
+                    
+                    <p>How did you find our website?
+                        <br />
+                        <select id="how" name="Find" style="font-size: 2rem; margin-top: 10px;">
+                            <option value="google search">Google ads</option>
+                            <option value="social media">Social Media</option>
+                            <option value="referral">Referral</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </p>
+
                     <p>Write a comment:
                     <br>
-                    <textarea name="comment" cols="60" rows="4"></textarea>
+                    <textarea name="comment" cols="60" rows="4" style="margin-top: 10px;"></textarea>
                     </p>
                     <input type="submit" value="Upload" />
                 </form>
