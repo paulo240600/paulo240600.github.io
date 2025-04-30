@@ -107,8 +107,12 @@ footer {
     margin-bottom: 10px;
 }
 
-#how {
-    font-size: 15px;
+select {
+    font-size: 20px;
+}
+
+select option {
+    font-size: 12px;
 }
 
 @media screen and (max-width: 768px) {
@@ -191,7 +195,11 @@ footer {
         font-size: 1.4rem;
     }
 
-    #how select {
-        font-size: 15px;
+    select {
+        font-size: 40px;
+    }
+    
+    select option {
+        font-size: 12px;
     }
   }
